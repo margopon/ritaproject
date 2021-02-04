@@ -52,3 +52,37 @@ fun Integer23(){  ////рита понасенко
     var important = min-hours*60
     print ("Количество полных минут, прошедших с начала последнего часа: $important")
 }
+fun Boolean5(){
+    print("Введите число А")
+    var A = readLine()!!.toDouble()
+    print("Введите число В")
+    var B = readLine()!!.toDouble()
+    if (A>= 0 || B<= -2)
+        println("Справедливо двойное неравенство A < B < C")
+    else
+        println("Не справедливо двойное неравенство A < B < C")
+}
+ fun for1(){
+     var k = readLine()!!.toInt()
+     var n = readLine()!!.toInt()
+     for(counter in 1..n) {
+         print(k)
+     }
+ }
+
+fun for2() {
+    var a = readLine()!!.toInt()
+    var b = readLine()!!.toInt()
+    for(counter in a..b)
+    {
+        println(counter)
+    }
+    var amount = b-a+1
+    println("Количество чисел: $amount")
+}
+
+fun for() {
+
+
+
+}
