@@ -4,14 +4,20 @@ import kotlin.math.sqrt
 ////рита понасенко
 //
 
+fun main()
+{
+
+    for2()
+
+}
+
+
 fun Integer1_1() { ////рита понасенко
     print("Введите расстояние в сантиметрах")
     var a = readLine()!!.toDouble()
     var b = a/100
     print("Количество полных метров= $b")
 }
-
-
 fun Begin2(){ ////рита понасенко
     print("Введите сторону квадрата:")
     var a = readLine()!!.toDouble()
@@ -73,16 +79,16 @@ fun Boolean5(){
 fun for2() {
     var a = readLine()!!.toInt()
     var b = readLine()!!.toInt()
-    for(counter in a..b)
+    for(counter in b-1 downTo a+1 )
     {
         println(counter)
     }
-    var amount = b-a+1
+    var amount = b-a-1
     println("Количество чисел: $amount")
 }
 
-fun for() {
-
-
-
-}
+//fun for() {
+//
+//
+//
+//}
